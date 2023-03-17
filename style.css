@@ -1,0 +1,52 @@
+/*
+
+Theme Name: WP_Daily
+Theme URL: www.comeandsee.com
+Author: Joseph U-O
+Description: This is my basic wordpress theme
+Tags: dailytemp, tempalteworld, motiontemplates
+License: GNU General public Template
+Version: 1.0
+
+*/
+
+body{
+    color: #333333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+header.header-area {
+    background: lightblue;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+header.header-area h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+
+}
+
+header.header-area h3 {
+    color: black;
+    font-size: 16px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .post-area .post-meta ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
